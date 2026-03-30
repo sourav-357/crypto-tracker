@@ -1,0 +1,26 @@
+.wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  background: #f8fafc;
+  padding: 0.9rem 0.75rem;
+  color: #334155;
+}
+
+.headerButton {
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  cursor: pointer;
+  color: inherit;
+}

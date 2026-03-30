@@ -1,0 +1,74 @@
+.page {
+  display: grid;
+  gap: 1rem;
+}
+
+.backLink {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.card {
+  display: grid;
+  gap: 1rem;
+  background: white;
+  border-radius: 18px;
+  padding: 1.2rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.coinInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.image {
+  width: 56px;
+  height: 56px;
+}
+
+.actionButton {
+  border: none;
+  background: #1d4ed8;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.statBox {
+  background: #eff6ff;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.statBox span {
+  display: block;
+  color: #475569;
+  margin-bottom: 0.35rem;
+}
+
+.changeRow {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.description {
+  line-height: 1.7;
+}
